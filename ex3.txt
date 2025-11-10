@@ -1,0 +1,22 @@
+EX.NO: 3
+
+TITLE:
+Image Annotation – Drawing lines, text, circle, rectangle, ellipse on images
+
+AIM:
+To annotate images by drawing text and shapes.
+
+THEORY:
+Annotation marks objects or regions in images for labeling or highlighting. Shapes like rectangle, circle, lines etc are drawn on images.
+
+PROCEDURE:
+1) Load image using OpenCV
+2) Use matplotlib patches or cv2 functions to draw shapes
+3) Use cv2.rectangle(), cv2.circle(), cv2.putText(), cv2.line()
+4) Display result
+
+OUTPUT:
+Annotated image with shapes and text.
+
+RESULT:
+Image annotation performed successfully.

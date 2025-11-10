@@ -1,0 +1,22 @@
+EX.NO: 5
+
+TITLE:
+Image Features and Image Alignment – Fourier, Hough, ORB features, Feature Matching, Cloning, Alignment
+
+AIM:
+To extract ORB features, match features and align images.
+
+PROCEDURE:
+1) Load two images (reference and target)
+2) Convert to grayscale
+3) Use ORB to detect keypoints and descriptors
+4) Use BFMatcher for matching
+5) Sort matches and take top matches
+6) Estimate homography
+7) Warp perspective to align
+
+OUTPUT:
+Aligned image obtained.
+
+RESULT:
+Image features extracted and image alignment completed successfully.

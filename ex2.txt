@@ -1,0 +1,25 @@
+EX.NO: 2
+
+TITLE:
+Basic Image Processing – Loading images, Cropping, Resizing, Thresholding, Contour analysis, Blob detection
+
+AIM:
+To perform basic image processing operations using OpenCV.
+
+THEORY:
+Basic image processing includes loading images, cropping specific area, resizing image, thresholding for segmentation, contour analysis for shape detection and blob detection for circular region detection.
+
+PROCEDURE:
+1) Load image using imread()
+2) Display image using matplotlib or cv2.imshow()
+3) Crop by slicing image[y1:y2, x1:x2]
+4) Resize using cv2.resize()
+5) Thresholding – example Otsu threshold
+6) Contour analysis using cv2.findContours()
+7) Blob detection using cv2.SimpleBlobDetector()
+
+OUTPUT:
+Images loaded, cropped, resized, thresholded, contours detected and blobs detected.
+
+RESULT:
+Basic image processing operations executed successfully using OpenCV.

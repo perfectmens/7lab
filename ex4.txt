@@ -1,0 +1,22 @@
+EX.NO: 4
+
+TITLE:
+Image Enhancement – Color spaces, Color conversion, Histogram equalization, Convolution, Image smoothing, Gradients, Edge Detection
+
+AIM:
+To enhance images using different enhancement techniques.
+
+PROCEDURE:
+1) Convert BGR to Gray and HSV
+2) Increase saturation for color enhancement
+3) Split channels
+4) Histogram equalization for contrast improvement
+5) Apply convolution filters
+6) Smooth image using averaging kernel
+7) Plot gradients
+
+OUTPUT:
+Enhanced images displayed.
+
+RESULT:
+Image enhancement techniques executed and verified successfully.

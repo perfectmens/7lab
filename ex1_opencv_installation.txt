@@ -1,0 +1,35 @@
+EX.NO: 1
+
+TITLE:
+OpenCV Installation and Working with Python
+
+AIM:
+To install OpenCV library in Python and verify installation.
+
+THEORY:
+OpenCV (Open Source Computer Vision Library) is a widely used library for computer vision, machine learning and image processing. It is used for object detection, face detection, handwriting recognition, pattern analysis etc. OpenCV works effectively with NumPy arrays in Python.
+
+REQUIREMENTS:
+- Python installed
+- PIP package manager installed
+
+PROCEDURE:
+1) Check Python installation:
+   Command in terminal:
+   python --version
+
+2) Check PIP installation:
+   pip -V
+
+3) Install OpenCV using pip:
+   pip install opencv-python
+
+4) After installation → verify by opening python shell and typing:
+   >>> import cv2
+   >>> print(cv2.__version__)
+
+OUTPUT:
+OpenCV version number is displayed.
+
+RESULT:
+OpenCV library was successfully installed and its version was verified.

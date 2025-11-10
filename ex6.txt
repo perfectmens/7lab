@@ -1,0 +1,20 @@
+EX.NO: 6
+
+TITLE:
+Image Segmentation using GraphCut / GrabCut
+
+AIM:
+To perform foreground extraction from image using GrabCut.
+
+PROCEDURE:
+1) Load input image
+2) Create mask
+3) Create background and foreground models
+4) Define rectangle region of interest
+5) Apply grabCut with cv2.grabCut()
+
+OUTPUT:
+Foreground object separated from background.
+
+RESULT:
+GraphCut / GrabCut segmentation executed successfully.
